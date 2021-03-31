@@ -28,7 +28,7 @@ public class StreamsUncaughtExceptionHandling {
         props.put("sasl.mechanism", "PLAIN");
         props.put("sasl.jaas.config", envProps.getProperty("sasl.jaas.config"));
         props.put("basic.auth.credentials.source", "USER_INFO");
-        props.put("schema.registry.basic.auth.user.info", envProps.getProperty("schema.registry.basic.auth.user.info"));
+//        props.put("schema.registry.basic.auth.user.info", envProps.getProperty("schema.registry.basic.auth.user.info"));
 
         return props;
     }
